@@ -4,19 +4,19 @@ const projects = [
   {
     title: 'Novel-Nest',
     description: 'An AI-powered platform for novel generation and recommendation using Gemini API and Firebase.',
-    github: 'https://github.com/YugBothra/Novel-Nest',
+    github: 'https://github.com/Yug-Bothra/NOVEL-NEST',
     demo: 'https://novelnestwebsite.netlify.app/',
   },
   {
     title: 'Coffee E-Commerce Website',
     description: 'A responsive e-commerce site for a coffee brand using HTML, CSS, and Bootstrap.',
-    github: 'https://github.com/YugBothra/COFFEE-WEB-SITE',
+    github: 'https://github.com/Yug-Bothra/COFFEE-WEB-SITE-',
     demo: 'https://yug-bothra.github.io/COFFEE-WEB-SITE-/',
   },
   {
     title: 'TRADEgain (Crypto Trading)',
     description: 'Real-time crypto trading simulator with WebSocket API and dynamic price updates.',
-    github: 'https://github.com/YugBothra/TRADEgain',
+    github: 'https://github.com/Yug-Bothra/TRADEgain',
     demo: 'https://yug-bothra.github.io/TRADEgain/',
   },
 ];
