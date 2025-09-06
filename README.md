@@ -193,7 +193,9 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is for educational purposes only as part of my college minor project. Not licensed for redistribution or commercial use.
+Copyright © 2025 Yug Bothra  
+All rights reserved.  
 
 ## 📞 Contact
 
