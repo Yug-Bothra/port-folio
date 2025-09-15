@@ -5,7 +5,7 @@ const projects = [
     title: 'Novel-Nest',
     description: 'An AI-powered platform for novel generation and recommendation using Gemini API and Firebase.',
     github: 'https://github.com/Yug-Bothra/NOVEL-NEST',
-    demo: 'https://novelnestwebsite.netlify.app/',
+    demo: 'https://novelnest-wdfo.vercel.app/',
   },
   {
     title: 'Coffee E-Commerce Website',
