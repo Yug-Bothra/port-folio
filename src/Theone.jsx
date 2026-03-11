@@ -20,10 +20,10 @@ function Theone() {
       <About/>
     </div>
     <div>
-      <Projects/>
+      <Resume/>
     </div>
     <div>
-      <Resume/>
+      <Projects/>
     </div>
     <div>
       <Experience/>
