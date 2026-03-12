@@ -8,28 +8,27 @@ import Resume from './Resume'
 function Theone() {
   return (
     <div className="flex h-screen">
-  {/* Left (Sticky) Box */}
-  <div className="centerbox w-[500px] h-screen bg-white border-r-2 border-black fixed top-0 left-0 flex justify-center items-center">
-    <Hero/>
+      {/* Left (Sticky) Box */}
+      <div className="centerbox w-[500px] h-screen bg-white border-r-2 border-black fixed top-0 left-0 flex justify-center items-center">
+        <Hero />
+      </div>
 
-  </div>
-
-  {/* Right Box */}
-  <div className="rightbox ml-[500px] flex-1 h-screen overflow-y-scroll bg-black text-white border-l-2 border-black p-4 ">
-    <div className='inner_rightbox '>
-      <About/>
+      {/* Right Box */}
+      <div className="rightbox ml-[500px] flex-1 h-screen overflow-y-scroll bg-black text-white border-l-2 border-black p-4">
+        <div className='inner_rightbox' id="about">
+          <About />
+        </div>
+        <div id="resume">
+          <Resume />
+        </div>
+        <div id="projects">
+          <Projects />
+        </div>
+        <div id="experience">
+          <Experience />
+        </div>
+      </div>
     </div>
-    <div>
-      <Resume/>
-    </div>
-    <div>
-      <Projects/>
-    </div>
-    <div>
-      <Experience/>
-    </div>
-  </div>
-</div>
   )
 }
 
