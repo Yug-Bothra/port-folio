@@ -1,47 +1,42 @@
-/* App-level overrides */
-.centerbox {
-  background: linear-gradient(160deg, #08091a 0%, #060810 60%, #09050f 100%);
-  position: relative;
-  overflow: hidden;
-}
-
-.centerbox::after {
-  content: '';
-  position: absolute;
-  bottom: -120px;
-  left: -80px;
-  width: 340px;
-  height: 340px;
-  background: radial-gradient(circle, rgba(79, 142, 247, 0.06) 0%, transparent 70%);
-  pointer-events: none;
-}
-
-.rightbox {
-  background: #060810;
-  scrollbar-gutter: stable;
-}
-
-/* Section fade-in */
-.inner_rightbox,
-[id="resume"],
-[id="projects"],
-[id="experience"] {
-  animation: sectionIn 0.5s ease both;
-}
-
-@keyframes sectionIn {
-  from { opacity: 0; transform: translateY(16px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-
-/* About text */
-.myself {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 0.95rem;
-  line-height: 1.85;
-  color: #64748b;
-  padding: 2.5rem 2.5rem;
-  max-width: 680px;
+#root {
+  max-width: 1280px;
   margin: 0 auto;
-  border-top: 1px solid #0f1525;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
 }
