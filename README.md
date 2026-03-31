@@ -209,4 +209,4 @@ All rights reserved.
 
 ⭐ **If you found this project helpful, please consider giving it a star!**
 
-*Built with ❤️ using React and Vite*
+*Built with ❤️ using by yug bothra*
