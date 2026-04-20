@@ -2,7 +2,7 @@
 
 > A modern, responsive portfolio website showcasing my professional journey, technical expertise, and creative projects.
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel)](https://port-folio-v35m.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel)](https://yugbothra-dev.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/Yug-Bothra/port-folio)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
@@ -200,7 +200,7 @@ All rights reserved.
 ## 📞 Contact
 
 **Yug Bothra**
-- **Portfolio**: [https://port-folio-v35m.vercel.app](https://port-folio-v35m.vercel.app)
+- **Portfolio**: [https://port-folio-v35m.vercel.app](https://yugbothra-dev.vercel.app/)
 - **GitHub**: [@Yug-Bothra](https://github.com/Yug-Bothra)
 - **LinkedIn**: [Connect with me](https://linkedin.com/in/yug-bothra)
 - **Email**: [your.email@example.com](mailto:your.email@example.com)
